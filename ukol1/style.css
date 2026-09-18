@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows:20% 40%;
+}
+
+header, main, footer {
+    background: rgb(92, 119, 66);
+    color: rgb(106, 36, 128);
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    padding: 10px;
+}
+h2 {
+    font-size: 38px;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+p:hover {
+    filter: opacity(60%);
+}
